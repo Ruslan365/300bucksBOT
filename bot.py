@@ -16,7 +16,7 @@ val = json.loads(responce.text)
 def get_text_messages(message):
     bot.send_message(message.from_user.id, "Доброго времени суток, выберете желаемую функцию.", reply_markup=keyboard1)
 
-
+print("HI")
 
 
 
